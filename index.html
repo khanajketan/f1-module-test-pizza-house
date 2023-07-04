@@ -3,367 +3,282 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Pizza House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Quattrocento" />
     <link rel="stylesheet" href="style.css">
-    <title>Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-black text-white">
-            <div clas="container">
-                <a class="navbar-brand mb-5 font-weight-bold text-white" style="font-family:ruda; font-size:30px;" href="#">Pizza
-                    Restaurant</a>
-
+        <nav aria-label="Main Navigation">
+            <div class="logo">
+                <h3>Pizza House</h3>
             </div>
-            <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse mb-5 text-white" id="navbarSupportedContent">
-                <ul class="nav">
-                    <li class="nav-item active">
-                        <a class="nav-item nav-link" href="#aboutus">ABOUT US </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="#menu">MENU</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="#gallery">BLOGS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="#testimony">TESTIMONY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="#findus">FIND US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="#ourteam">OUR TEAM</a>
-                    </li>
-                </ul>
+            <div class="nav-items" role="navigation" aria-label="Social Navigation">
+                <li><a href="#about-us" aria-label="about-us">ABOUT US</a></li>
+                <li><a href="#menu" aria-label="menu">MENU</a></li>
+                <li><a href="#header" aria-label="header">BLOGS</a></li>
+                <li><a href="#testimony" aria-label="testimony">TESTIMONY</a></li>
+                <li><a href="#find-us" aria-label="find-us">FIND US</a></li>
+                <li><a href="#our-team" aria-label="our-team">OUR TEAM</a></li>
             </div>
-            <div class="icon" style=" margin-top:-41px;">
-                <ul class="nav">
-                    <li class="nav-item active">
-                        <a class="nav-item nav-link" href="#"><img src="pics of project/Rectangle 12instagram.png"></a>
-                    </li>
-                    <div style="margin-top:8px; margin-left:-17px">
-                        <li class="nav-item active">
-                            <a class="nav-item nav-link mb-0" href=""><img src="pics of project/image 5facebook.png"
-                                    width="62px">
-                            </a>
-                        </li>
-                    </div>
-                    <div style="margin-top:4px">
-                        <li class="nav-item active">
-                            <a class="nav-item nav-link mb-0" href="#"><img src="pics of project/image 4whatsapp.png"
-                                    width="56px"></a>
-                        </li>
-                    </div>
-                </ul>
+            <div class="nav-icons" role="navigation" aria-label="Social Navigation">
+                <li><a href="instagram.com" aria-label="Instagram"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                <li><a href="facebook.com" aria-label="Facebook"><i class="fa-brands fa-facebook-f fa-2x"></i></a></li>
+                <li><a href="wa.com" aria-label="Whatsapp"><i class="fa-brands fa-whatsapp fa-2x"></i></a></li>
             </div>
+            <button class="btn"><span class="toggle_btn"><i class="fa-solid fa-bars"></i></span></button>
         </nav>
+
+
+
     </header>
-    <div class="bg-image container-fluid" style="
-    background-image: url('pics of project/pizza1 1pizza2.png');
-    height: 70vh; width:100vw;  margin-top: -55px;
-  ">
-        <div class="image-body">
-            <h1 class=" text-white py-4" style="font-family: Quattrocento; font-size: 75px; margin-left:7rem">Craving
-                for a<br> chessy pizza?</h1>
-            <div class=" mr-5 " style="border-bottom: 5px solid red;width:411px; margin-left:7rem"></div>
-            <div class="image-text text-white mt-5" style="margin-left:7rem ;width:411px;text-align:justify;">Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Sequi repellendus unde similique beatae nemo
-                dignissimos provident quaerat est praesentium Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Omnis, cumque.</div>
+
+    <div class="dropdown_menu">
+        <li><a href="#about-us">ABOUT US</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#header">BLOGS</a></li>
+        <li><a href="#testimony">TESTIMONY</a></li>
+        <li><a href="#find-us">FIND US</a></li>
+        <li><a href="#our-team">OUR TEAM</a></li>
+        <li><a href="instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+        <li><a href="facebook.com"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+        <li><a href="wa.com"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+    </div>
+
+    <main id="header">
+        <div class="image">
+            <div class="content">
+                <h1>Craving for a cheesy pizza?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur modi excepturi eligendi dolorem rerum sit ab totam fugit sunt, veritatis reprehenderit, asperiores nostrum est ipsum molestias porro illum dolor dolorum autem natus vel voluptatibus. Consequatur hic rerum praesentium magni ex.
+                </p>
+            </div>
+            <img src="images/pizza.png" alt="img">
         </div>
-        <main style="margin-top:80px">
-            <section id="aboutus">
-                <div class="container">
-                    <div class="text-center text-white" style="font-family:Quattrocento;font-size:25px;">ABOUT US</div>
-                    <div class="" style="border-bottom: 3px solid red; width:211px; margin-left:452px"></div>
-                    <div class="row mt-5">
-                        <div class="col-md-6">
-                            <p style="width:80%; margin-left:145px; font-family:ruda;color:white">Lorem ipsum dolor sit amet consectetur adipisicing
-                                elit. Accusamus, commodi animi. Dolores reiciendis, aut eum consectetur maxime sit ipsa
-                                delectus. Quod quo veniam tempora debitis fugit repudiandae eos facilis repellendus sint
-                                at, voluptates ad accusamus, aliquid unde voluptate eum deserunt?</p>
-                        </div>
-                        <div class="col-md-6">
-                            <img style="margin-left:137px" src="pics of project/dough-3082589_1920 1dough.png"
-                                width="50%">
+    </main>
+    <div class="container">
+
+
+
+        <section id="about-us" class="sect-1">
+            <h1>ABOUT US</h1>
+            <div class="sect-1-child">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged.</p>
+                <img src="./images/dough.png" alt="">
+            </div>
+        </section>
+
+        <section id="menu" class="sect-2">
+            <h1>MENU</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio aperiam consequatur est veniam tempore distinctio! Quaerat ut ad autem, eligendi, repellendus nostrum maiores corrupti iure porro officia illum voluptatibus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati distinctio at impedit similique quas nulla, alias ut tenetur totam atque? </p>
+            <div class="menu-items">
+                <div class="items">
+                    <div class="items-left">
+                        <img src="./images/item1.png" alt="">
+                    </div>
+                    <div class="items-right">
+                        <h3>Item 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident.</p>
+                    </div>
+
+                </div>
+
+                <div class="items">
+                    <div class="items-left">
+                        <img src="./images/item2.png" alt="">
+                    </div>
+                    <div class="items-right">
+                        <h3>Item 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident.</p>
+                    </div>
+
+                </div>
+                <div class="items">
+                    <div class="items-left">
+                        <img src="./images/item3.png" alt="">
+                    </div>
+                    <div class="items-right">
+                        <h3>Item 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident.</p>
+                    </div>
+
+                </div>
+                <div class="items">
+                    <div class="items-left">
+                        <img src="./images/item4.png" alt="">
+                    </div>
+                    <div class="items-right">
+                        <h3>Item 4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident.</p>
+                    </div>
+
+                </div>
+                <div class="items">
+                    <div class="items-left">
+                        <img src="./images/item5.png" alt="">
+                    </div>
+                    <div class="items-right">
+                        <h3>Item 5</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident.</p>
+                    </div>
+
+                </div>
+                <div class="items">
+                    <div class="items-left">
+                        <img src="./images/item6.png" alt="">
+                    </div>
+                    <div class="items-right">
+                        <h3>Item 6</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, provident.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+       <!-- Crausla -->
+        <!-- carousel section -->
+        <section id="carousel" class="sect-4">
+            <h1>Carousel</h1>
+         
+         <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/item1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/item2.png" class="p-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/item3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/item4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/item5.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallary" class="sect-5">
+            <h1>Gallary</h1>
+            <div class="img">
+            <img src="./images/item1.png">
+            <div class="img-container">
+            <img src="./images/item2.png">
+            <img src="./images/item3.png">
+            <img src="./images/item4.png">
+            <div class="img-container-1"></div>
+            <img src="./images/item5.png">
+            <img src="./images/item6.png">
+            </div>
+            </div>
+            </section>
+        
+        
+        <section id="find-us" class="sect-3">
+            <h1>FIND US</h1>
+            <div class="find-us">
+                <div class="find-left">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy text e.</p>
+                    <div class="location">
+                        <a
+                            href="https://www.google.com/maps/place/Gorakhpur,+Uttar+Pradesh/@26.7638512,83.3338703,12z/data=!3m1!4b1!4m5!3m4!1s0x3991446a0c332489:0x1ff3f97fdcc6bfa2!8m2!3d26.7605545!4d83.3731675"><span
+                                class="material-icons">location_on</span></a>
+                        <a
+                            href="https://maps.app.goo.gl/3ekikLS47kPLmVLTA"><span>Location
+                                Kagwade Mala, Ichalkaranji</span></a>
+                    </div>
+                    <div class="call">
+                        <a href="tel:01243452788"><span class="material-icons">call</span></a>
+                        <div class="ph">
+
+                            <a href="tel:0000076655"><span>0000076655</span><br></a>
+                            <a href="tel:0000076655"><span>0000076655</span></a>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="menu" style="margin-top:80px">
-                <div class="container">
-                    <div class="text-center" style="font-family:Quattrocento;font-size:25px;color:white">MENU</div>
-                    <div class="" style="border-bottom: 3px solid red; width:211px; margin-left:452px"></div>
-                    <div class="mt-4 ml-3" style="font-family:ruda;color:white">Explore the wide range of pizza baked in fresh dough and vegetables. Our pizza will tempt all
-                        your excitement and senses. Made with a delicate balance of everything cheesy and spicy, you
-                        will get to savour the best pizza in town. </div>
-                    <div class="row mt-5">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="container-fluid mb-2" src="pics of project/pizza5pizaaaa2.png">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-warning" style="font-family:Quattrocento">LOREM IPSUM</div>
-                                    <P style="font-family:ruda;color:white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit omnis dolores
-                                        deserunt nobis tempora assumenda doloremque nam dolorem repellat itaque?</P>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="container-fluid mb-2" src="pics of project/pizza2pizaaaaa.png">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-warning" style="font-family:Quattrocento">LOREM IPSUM</div>
-                                    <P style="font-family:ruda;color:white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit omnis dolores
-                                        deserunt nobis tempora assumenda doloremque nam dolorem repellat itaque?</P>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="container-fluid mb-2" src="pics of project/bread.png">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-warning" style="font-family:Quattrocento">LOREM IPSUM</div>
-                                    <P style="font-family:ruda;color:white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit omnis dolores
-                                        deserunt nobis tempora assumenda doloremque nam dolorem repellat itaque?</P>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="container-fluid" src="pics of project/bread2.png">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-warning" style="font-family:Quattrocento">LOREM IPSUM</div>
-                                    <P style="font-family:ruda;color:white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit omnis dolores
-                                        deserunt nobis tempora assumenda doloremque nam dolorem repellat itaque?</P>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="container-fluid" src="pics of project/Untitled.png">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-warning" style="font-family:Quattrocento">LOREM IPSUM</div>
-                                    <P style="font-family:ruda;color:white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit omnis dolores
-                                        deserunt nobis tempora assumenda doloremque nam dolorem repellat itaque?</P>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img class="container-fluid" src="pics of project/shake1.png">
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="text-warning" style="font-family:Quattrocento">LOREM IPSUM</div>
-                                    <P style="font-family:ruda;color:white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit omnis dolores
-                                        deserunt nobis tempora assumenda doloremque nam dolorem repellat itaque?</P>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
+                <!-- <div class="find-right"> -->
+                <div class="find-right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.8467021721485!2d74.46195547515356!3d16.684552922671724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc0e302c81b0787%3A0xa1b0a950e17ecbb9!2sPizza%20House!5e0!3m2!1sen!2sin!4v1688479970741!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+                        <!-- </div> -->
+        </section>
+    </div>
 
-            </section>
-            <section id="menu" style="margin-top:80px">
-                <div class="container">
-                    <div class="text-center" style="font-family:Quattrocento;font-size:25px;color:white">Carousel</div>
-                    <div class="" style="border-bottom: 3px solid red; width:211px; margin-left:452px"></div>
-                    <div id="carouselExampleIndicators" class="carousel slide" style="width:75%;margin-left:143px;" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                        </ol>
-                        <div class="carousel-inner mt-5">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="pics of project/pizza2pizaaaaa.png" width=50%
-                                    height="350rm" alt="First slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="pics of project/pizza5pizaaaa2.png" width=50%
-                                    height="350rm" alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="pics of project/Untitled.png" width=50% height="350rm"
-                                    alt="Third slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="pics of project/bread2.png" width=50% height="350rm"
-                                    alt="Second slide">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="pics of project/bread.png" width=50% height="350rm"
-                                    alt="Second slide">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                            data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                            data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+    <footer id="our-team">
+        <div class="foot-left">
+            <img src="./images/group.png" alt="img">
+        </div>
+        <div class="foot-right">
+            <div class="sms">
+                <span><a href="mailto:helpemail@example.com"><i class="fa-regular fa-envelope"></i></a></span>
+                <span><a href="mailto:helpemail@example.com"> pizzahouse@gmail.com</a></span>
+            </div>
+            <div class="call">
+                <a href="tel:012434527882"><span class="material-icons">call</span></a>
+                <div class="ph">
+
+                    <a href="tel:0000076655"><span>0000076655</span><br></a>
+                    <a href="tel:0000076655"><span>0000076655</span></a>
                 </div>
-            </section>
-            <section id="gallery" style="margin-top:80px">
-                <div class="container">
-                    <div class="text-center" style="font-family:Quattrocento;font-size:25px;color:white">Gallery</div>
-                    <div class="" style="border-bottom: 3px solid red; width:211px; margin-left:452px"></div>
-                    <div class="row mt-5" style="margin-left: 103px;">
-                        <div class="col-md-6" style="padding:12px">
-                            <img calss="container-fluid" src="pics of project/pizza2pizaaaaa.png" width="100%">
-                        </div>
-                        <div class="col-md-6">
-                            <div class="row" style="margin-right:12rem">
-                                <div class="col-md-6" style="margin-left:0px; padding-left:0px; margin-top:13px;">
-                                    <div class="gallery-image">
-                                    <img src="pics of project/bread.png"></div>
-                                    <div class="gallery-image">
-                                    <img src="pics of project/Untitled.png"></div>
-                                    <div class="gallery-image">
-                                    <img src="pics of project/pizza5pizaaaa2.png" ></div>
-                                </div>
-                                <div class="col-md-6" style="margin-left:0px; padding-left:15px; margin-top:13px;">
-                                    <div class="gallery-image" style="width=165px;height:190px">
-                                    <img src="pics of project/bread2.png" height="180px"></div>
-                                    <div class="gallery-image">
-                                    <img src="pics of project/shake1.png" height="160px"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="findus" style="margin-top:80px">
-                <div class="container mr-5">
-                    <div class="text-center" style="font-family:Quattrocento;font-size:25px;color:white">FIND US</div>
-                    <div class="" style="border-bottom: 3px solid red; width:211px; margin-left:452px"></div>
-                    <div class="row mt-5">
-                        <div class="col-md-6"  style="padding:30px">
-                            <p style="color:white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus soluta mollitia,
-                                repellendus suscipit illum fuga doloremque cupiditate autem explicabo obcaecati ab quia.
-                                Architecto, sint laborum!</p>
-                            <div class="location d-flex mb-4">
-                                <div class="location-icon">
-                                    <img src="pics of project/locationlocation.png">
-                                </div>
-                                <div class="location-text mt-4 text-white">
-                                    Location XYZ,XYZ Colony,Delhi
-                                </div>
-                            </div>
-                            <div class="location d-flex">
-                                <div class="location-icon">
-                                    <img src="pics of project/phonephone.png">
-                                </div>
-                                <div class="location-text text-white">
-                                    <p>123-456-789</p>
-                                    <p>987-543-210</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="map py-4">
-                                <img src="pics of project/image 4map.png" width="90%">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer style="margin-top:80px">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="pics of project/Groupman.png" height="100px">
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-6" style="margin-left:0px">
-                                <div class="text-icon">
-                                <img src="pics of project/envelopemail.png">
-                            </div>
-                            <div class="text-icon mt-3">
-                                <img src="pics of project/phonephone.png">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="mail text-white">
-                                    <p>mailid@gmail.com</p>
-                                    <div>
-                                        <div class="number text-white">
-                                            <p>123-456-789</p>
-                                            <p>987-654-321</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-        </footer>
+            </div>
+        </div>
 
+    </footer>
 
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
 
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
 
+            const isOpen = dropDownMenu.classList.contains('open')
+            toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+        }
+        
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script> 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
 </body>
 
 </html>
